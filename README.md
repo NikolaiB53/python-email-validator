@@ -1,4 +1,116 @@
-email-validator: Validate Email Addresses
+# 🚀 Форма деплоя на Streamlit Cloud
+
+## Заполнение формы "New app":
+
+### 1️⃣ Repository
+```
+Выберите из списка: YOUR_USERNAME/ai-trading-app
+```
+*Это ваш GitHub репозиторий*
+
+---
+
+### 2️⃣ Branch
+```
+main
+```
+*Оставьте по умолчанию*
+
+---
+
+### 3️⃣ Main file path
+```
+final_app.py
+```
+*Точное имя вашего файла приложения*
+
+---
+
+### 4️⃣ App URL (ВАЖНО!)
+```
+┌─────────────────────────────────────────────────┐
+│ https://[ЗДЕСЬ_ВАШЕ_ИМЯ]-[ваш-github].streamlit.app │
+└─────────────────────────────────────────────────┘
+```
+
+**Примеры хороших имён:**
+- `ai-trading-demo` → ai-trading-demo-john.streamlit.app
+- `crypto-analyzer` → crypto-analyzer-john.streamlit.app
+- `trading-bot` → trading-bot-john.streamlit.app
+- `market-ai` → market-ai-john.streamlit.app
+
+**Правила именования:**
+- ✅ Только буквы, цифры и дефисы
+- ✅ Длина: 3-63 символа
+- ✅ Должно начинаться с буквы
+- ❌ Нельзя: пробелы, подчёркивания, спецсимволы
+
+---
+
+### 5️⃣ Advanced settings (опционально)
+
+**Python version:** 
+```
+3.9 (или оставьте автоматически)
+```
+
+**Secrets:** 
+```
+Оставьте пустым (если нет API ключей)
+```
+
+---
+
+## 🎯 Финальный URL
+
+После деплоя вы получите:
+```
+🌐 https://[ваше-имя-приложения]-[ваш-github-username].streamlit.app
+```
+
+### Примеры реальных URL:
+- `https://ai-trading-demo-johnsmith.streamlit.app`
+- `https://crypto-analyzer-traderjoe.streamlit.app`
+- `https://trading-bot-alexcrypto.streamlit.app`
+
+---
+
+## 🔄 Как изменить URL после деплоя?
+
+1. Зайдите в **Settings** вашего приложения
+2. Найдите **App URL**
+3. Измените имя (часть до вашего username)
+4. Сохраните
+
+⚠️ **Важно:** Старая ссылка перестанет работать!
+
+---
+
+## ✨ Советы по выбору имени
+
+**Хорошие имена:**
+- Короткие и запоминающиеся
+- Отражают суть приложения
+- Легко произносятся
+
+**Примеры:**
+- `ai-trade` ✅
+- `crypto-ai` ✅
+- `market-bot` ✅
+- `trading-platform-with-artificial-intelligence-v2` ❌ (слишком длинно)
+
+---
+
+## 🆓 Ограничения бесплатного плана
+
+- ✅ Публичный доступ
+- ✅ Неограниченные просмотры
+- ✅ Автоматические обновления из GitHub
+- ⚠️ Приложение "засыпает" после 7 дней неактивности
+- ⚠️ Ограничение ресурсов: 1 GB RAM
+
+**Решение проблемы "засыпания":**
+Посещайте приложение раз в неделю, или используйте сервисы мониторинга (UptimeRobot)email-validator: Validate Email Addresses
 =========================================
 
 A robust email address syntax and deliverability validation library for
